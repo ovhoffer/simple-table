@@ -1,17 +1,45 @@
-
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  color: rgb(224, 224, 224);
+  font-family: "Rubik", sans-serif;
+}
 
 .wrapper {
-   min-width: 100vh;
-   min-height: 100vh;
-   display: flex;
-   align-items: center;
-   flex-direction: row;
-   justify-content: center;
+  background-color: #0f0f0f;
+  min-width: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
 
 table {
-   width: 400px;
-   height: 500px;
-   border: 1px solid black;
- }
+  text-align: left;
+  width: 700px;
+  border-collapse: collapse;
+  background-color: #202020;
+  margin-top: 100px;
+}
+table p {
+  margin-left: 20px;
+}
+table th {
+  height: 10%;
+}
+table th p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(163, 164, 165);
+}
+table tr {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 30px;
+}
+
+button {
+  margin: 10px 0 0 0;
+  background-color: #4e4e4e;
+}
+/*# sourceMappingURL=main.css.map */

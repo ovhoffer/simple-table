@@ -9,7 +9,7 @@ class Table {
   this.height = 700 + 'px';
   this.density = 20 + 'px';
   this.headers = 'toggle';
-  this.text = `Lorem ipsum`;
+  this.text = `хуй говно`;
   this.editable = true
   }
   
@@ -97,5 +97,5 @@ class Table {
 }
 
 
-let newTable = new Table(3, 5);
+let newTable = new Table(5, 3);
 newTable.init()
