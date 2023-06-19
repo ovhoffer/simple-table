@@ -32,7 +32,7 @@ body {
 .main__table .headers__container .header {
   height: 10%;
 }
-.main__table .headers__container .header p {
+.main__table .headers__container .header .header__paragraph {
   margin-top: 20px;
   margin-bottom: 20px;
   color: rgb(150, 150, 150);
