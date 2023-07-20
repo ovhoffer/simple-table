@@ -1,7 +1,7 @@
-import { Table } from './table.js';
+import { Table } from './table/table.js';
 
 document.addEventListener('DOMContentLoaded', appInit);
-let template = [];
+//let template = [];
 //let columns = [];
 
 const options = {
